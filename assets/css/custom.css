@@ -58,6 +58,21 @@ hr{
 }
 
 .model-holder .model-content h2{
-	padding: 16px 0 5px 0;
-	color: #666;
+	padding: 16px 0;
+	color: #333;
+	font-size: 55px;
+}
+
+/** responsive **/
+@media only screen and (max-width: 782px){
+
+	.model-holder .model-content{
+		width: 80%;
+		margin: 50px auto;
+	}
+
+	.model-holder .model-content h2{
+		font-size: 36px;
+	}
+
 }
