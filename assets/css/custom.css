@@ -20,20 +20,20 @@ hr{
 .center{
 	text-align: center;
 }
-/*========== | MODEL | ===========*/
-.model-holder{
+/*========== | MODaL | ===========*/
+.modal-holder{
 	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.4);
 	z-index: 500;
 	height: 100%;
  	display: none; 
 }
 
-.model-holder .model-content{
+.modal-holder .modal-content{
 	width: 50%;
 	margin: 190px auto;
 	background: #f7f7f7;
@@ -43,7 +43,7 @@ hr{
 	border: 1px solid #dadada;
 	position: relative;
 }
-.model-holder .model-content span{
+.modal-holder .modal-content span{
 	display: block;
 	cursor: pointer;
 	padding: 8px 6px;
@@ -53,11 +53,11 @@ hr{
    right: 12px;
    top: 12px;
 }
-.model-holder .model-content span:hover{
+.modal-holder .modal-content span:hover{
 	background: #f3f3f3;
 }
 
-.model-holder .model-content h2{
+.modal-holder .modal-content h2{
 	padding: 11px 0;
 	color: #333;
 	font-size: 40px;
@@ -82,12 +82,12 @@ hr{
 /** responsive **/
 @media only screen and (max-width: 782px){
 
-	.model-holder .model-content{
+	.modal-holder .modal-content{
 		width: 80%;
 		margin: 50px auto;
 	}
 
-	.model-holder .model-content h2{
+	.modal-holder .modal-content h2{
 		font-size: 36px;
 	}
 

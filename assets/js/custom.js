@@ -3,46 +3,46 @@ $(window).ready(function(){
 	'use strict';
 
 		/*
-	** ========== > Model < ========== 
+	** ========== > Modal < ========== 
 	*/
 	$('#signup').on('click', function(){
 
-		$('#model').show();
+		$('#modal').show();
 		$('body').css('overflow','hidden');
 		return false;
 	});
 
 /*
-** Close the model when clicking on the whole screen but not at the middle on the content area 
+** Close the modal when clicking on the whole screen but not at the middle on the content area 
 */
 	
-	$('#model, #minimize').on('click', function(e){
+	$('#modal, #minimize').on('click', function(e){
 		e.stopPropagation();
-		var model = $('#model').css('display');
+		var modal = $('#modal').css('display');
 
-		if(model === 'block'){
-			$('#model').css('display','none');
+		if(modal === 'block'){
+			$('#modal').css('display','none');
 			$('body').css('overflow','auto');
 		}
 
 	});
 
 	/*
-	** prevent closing the model on clicking on the content area (area at the middle) 
+	** prevent closing the modal on clicking on the content area (area at the middle) 
 	*/
-	$('#model-content').on('click', function(e){
+	$('#modal-content').on('click', function(e){
 		e.stopPropagation();
 	});
 
 	/*
-	** close the model when pressing ESC Key on the keyboard
+	** close the modal when pressing ESC Key on the keyboard
 	*/
 	$(window).on('keydown', function(e){
-		var model = $('#model').css('display');
+		var modal = $('#modal').css('display');
 
 		if(e.keyCode === 27){
-			if(model === 'block'){
-				$('#model').css('display','none');
+			if(modal === 'block'){
+				$('#modal').css('display','none');
 				$('body').css('overflow','auto');
 			}
 
