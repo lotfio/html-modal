@@ -58,10 +58,26 @@ hr{
 }
 
 .model-holder .model-content h2{
-	padding: 16px 0;
+	padding: 11px 0;
 	color: #333;
-	font-size: 55px;
+	font-size: 40px;
 }
+
+/** remove this style if not needed */
+.btn{
+	display: block;
+	padding: 20px;
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 50px auto;
+	width: 200px;
+	text-align: center;
+}
+
+/**  end of style to be removed **/
+
 
 /** responsive **/
 @media only screen and (max-width: 782px){
