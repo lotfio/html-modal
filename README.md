@@ -6,8 +6,8 @@ ForDev Modal is a very simple and naked modal made with html css and jquery only
 
 ## How to use 
 * download or clone files
-* download and use jquery 3.1.1 if you use newer version make sure to change it on the html script source
-* download and use font awsome 
+* download and use jquery 3.1.1 if you use newer version make sure to change it in your html script source
+* download and use font awesome 
 * include it on your project and have fun
 
 ## Features 
