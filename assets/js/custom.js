@@ -1,10 +1,5 @@
-$(window).ready(function(){
+$(document).ready(function(){
 
-	'use strict';
-
-		/*
-	** ========== > Modal < ========== 
-	*/
 	$('#signup').on('click', function(){
 
 		$('#modal').show();
